@@ -1,0 +1,69 @@
+.gaben {
+    display: flex;
+}
+.noscope {
+    display: flex;
+    margin-right: 15px;
+}
+.noscopers {
+    margin-right: 20px;
+}
+.dust2 {
+    display: flex;
+}
+.weed {
+max-width: 462px;
+width: 100%;
+height: 100px;
+}
+.nadeshiko {
+    font-size: 40px;
+    color: #212529;
+}
+.m4a1 {
+    font-size: 15px;
+    color: #212529;
+}
+.m4a4 {
+    font-size: 10px;
+    color: #21252980;
+    }
+.shimarin {
+font-size: 15px;
+color: #21252980;
+}
+.freeman {
+/* Dark/Button/Primary/Text */
+
+width: 170px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* color / dark */
+background: #212529;
+border-radius: 5px;
+
+
+/* Button */
+
+height: 25px;
+left: 17.35%;
+right: 17.35%;
+top: calc(50% - 25px/2 + 1.5px);
+
+/* Typography/Sub-Heading/Regular */
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 125%;
+/* identical to box height, or 25px */
+text-align: center;
+
+color: #FFFFFF;
+}
