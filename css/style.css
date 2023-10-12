@@ -1,5 +1,13 @@
 .gaben {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weed {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
 }
 .noscope {
     display: flex;
@@ -66,4 +74,16 @@ line-height: 125%;
 text-align: center;
 
 color: #FFFFFF;
+}
+
+.oracle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:1024px) {
+    .gaben {
+    flex-direction: column;
+}
 }
