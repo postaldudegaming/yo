@@ -82,6 +82,20 @@ color: #FFFFFF;
     align-items: center;
 }
 
+.system {
+    text-align: center;
+    color: #212529;
+    line-height: 50px;
+    font-size: 40px;
+}
+.mrf {
+    text-align: center;
+    color: #74C69D;
+    line-height: 20px;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+
 @media (max-width:1024px) {
     .gaben {
     flex-direction: column;
